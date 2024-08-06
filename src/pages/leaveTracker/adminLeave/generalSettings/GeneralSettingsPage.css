@@ -1,0 +1,145 @@
+.general-settings-page {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+ 
+    padding: 20px;
+  }
+  
+  .general-settings-section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .general-settings-section h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .general-settings-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .general-settings-label {
+    flex: 0 0 300px;
+    font-size: 14px;
+    color: #555;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .general-settings-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .general-settings-options {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .general-settings-radio,
+  .general-settings-checkbox {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .general-settings-radio input,
+  .general-settings-checkbox input {
+    margin-right: 5px;
+  }
+  
+  .general-settings-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .general-settings-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .general-settings-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .general-settings-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .general-settings-slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .general-settings-slider:before {
+    transform: translateX(26px);
+  }
+  
+  .general-settings-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .general-settings-submit,
+  .general-settings-reset {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .general-settings-submit {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .general-settings-reset {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .general-settings-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .general-settings-label {
+      flex: none;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+  
+    .general-settings-options {
+      margin-left: 0;
+    }
+  }

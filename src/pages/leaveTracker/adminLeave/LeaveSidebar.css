@@ -1,0 +1,72 @@
+.leave-app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .leave-sidebar {
+    width: 300px;
+    background-color: #f8f9fa;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .leave-back-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .sidebar-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .leave-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .leave-sidebar li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .leave-sidebar li:hover {
+    background-color: #e9ecef;
+  }
+  
+  .leave-sidebar li span {
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  .leave-sidebar li svg {
+    color: #adb5bd;
+  }
+  
+  .leave-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #ffffff;
+  }

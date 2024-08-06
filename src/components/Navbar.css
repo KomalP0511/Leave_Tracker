@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90D26D;
+    color: black;
+    padding: 10px 20px;
+ 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .nav-icon img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family:sans-serif;
+  }
+  
+  .dropdown-item:hover {
+    background-color:#C3FF93;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+ 
+  }
+  .dropdown-submenu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .search-employees input {
+    padding: 10px;
+   width: 300px;
+    border-radius: 4px;
+    border-color: black;
+    margin-right: 120px;
+    
+  }
+  
+  .navbar-icons {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 80px;
+  }
+  
+  .nav-icon {
+    color: black;
+    font-size: 40px;
+    margin-left: 22px;
+    padding: 2px;
+    
+    text-decoration: none;
+  }
+  
+  .nav-icon:hover {
+    color: #cccccc;
+  }

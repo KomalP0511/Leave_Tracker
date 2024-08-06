@@ -1,0 +1,52 @@
+
+.edit-leave-type-container{
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+
+  max-height: 90vh;
+  overflow-y: auto
+}
+.edit-leave-type-form {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.edit-leave-type-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-leave-type-form .form-group {
+  margin-bottom: 15px;
+}
+
+.edit-leave-type-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.edit-leave-type-form input[type="text"],
+.edit-leave-type-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.edit-leave-type-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.edit-leave-type-form button {
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+
+.edit-leave-type-form button[type="button"] {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,92 @@
+/* CalendarSettingsPage.css */
+.cal-settings-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+ 
+    padding: 20px;
+  }
+  
+  .cal-settings-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cal-settings-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cal-settings-select {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  
+  .cal-settings-section {
+    margin-bottom: 30px;
+  }
+  
+  .cal-settings-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cal-settings-row label {
+    min-width: 200px;
+  }
+  
+  .cal-settings-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cal-settings-toggle span {
+    margin: 0 10px;
+  }
+  
+  .cal-settings-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cal-settings-table th,
+  .cal-settings-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .cal-settings-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .cal-settings-date {
+    margin: 0 10px;
+    padding: 5px;
+  }
+  
+  .cal-settings-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .cal-settings-submit,
+  .cal-settings-cancel {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .cal-settings-submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  .cal-settings-cancel {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }

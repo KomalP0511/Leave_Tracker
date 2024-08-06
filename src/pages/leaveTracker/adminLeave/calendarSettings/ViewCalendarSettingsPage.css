@@ -1,0 +1,61 @@
+/* ViewCalendarSettingsPage.css */
+.view-calendar-settings-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+ 
+    padding: 20px;
+  }
+  
+  .view-calendar-settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .view-calendar-settings-header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .view-calendar-settings-add-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .view-calendar-settings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .view-calendar-settings-table th,
+  .view-calendar-settings-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .view-calendar-settings-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .view-calendar-settings-note {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .view-calendar-settings-admin-note {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+  }

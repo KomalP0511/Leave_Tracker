@@ -1,0 +1,142 @@
+.leave-form-containerL {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+
+.mandatory-field {
+  color: red;
+}
+
+input[type="text1"],
+input[type="email1"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.date-range {
+
+  margin-top: 10px;
+ width: 60%;
+ 
+}
+
+.date-range input[type="date"] {
+  flex: 1;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+
+.submit-button,.cancel-button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+.confirmation-modal,
+.result-modal {
+  margin-top: 760px;
+  margin-left: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+ 
+  text-align: center;
+}
+
+.confirmation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.confirmation-buttons button,
+.result-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.confirmation-buttons button:first-child {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.confirmation-buttons button:last-child {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.Leave-apply-leave-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Leave-apply-leave-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 1000px;
+}
+
+.result-content button {
+  background-color: #007bff;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.success-icon {
+  color: green;
+  font-size: 20px;
+}
+
+.error-icon {
+  color: red;
+  font-size: 20px;
+}
+
+

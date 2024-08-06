@@ -1,0 +1,96 @@
+.customize-balance-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .customize-balance-form-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .customize-balance-form-container h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .customize-balance-form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .customize-balance-form-label {
+    flex: 0 0 200px; /* Adjusted width */
+    font-size: 14px;
+    color: #555;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .customize-balance-form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .customize-balance-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .customize-balance-form-submit,
+  .customize-balance-form-cancel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .customize-balance-form-submit {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .customize-balance-form-cancel {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .customize-balance-form-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .customize-balance-form-label {
+      flex: none;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+  
+    .customize-balance-form-select {
+      width: 100%;
+    }
+  }
+  

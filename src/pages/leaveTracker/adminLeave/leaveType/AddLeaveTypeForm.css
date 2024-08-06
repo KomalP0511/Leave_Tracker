@@ -1,0 +1,130 @@
+
+
+.leave-type-form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.leave-type-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.leave-type-form-group {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.leave-type-form-label {
+  flex: 0 0 150px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.leave-type-form-input,
+.leave-type-form-select,
+.leave-type-form-textarea {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.leave-type-form-textarea {
+  height: 60px;
+}
+
+.leave-type-form-options {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.leave-type-form-radio,
+.leave-type-form-checkbox {
+  margin-right: 15px;
+}
+
+.leave-type-form-more-options {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.leave-type-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.leave-type-form-submit,
+.leave-type-form-cancel {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leave-type-form-submit {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.leave-type-form-cancel {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Specific adjustments */
+.leave-type-form-group input[type="number"] {
+  width: 50px;
+}
+
+.leave-type-form-group select {
+  margin: 0 5px;
+}
+
+.leave-type-form-group span {
+  margin: 0 5px;
+}
+
+/* Add policy button */
+.leave-type-form-add-policy {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Entitlement and Restrictions tabs */
+.leave-type-form-tabs {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.leave-type-form-tab {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.leave-type-form-tab.active {
+  background-color: #f0f0f0;
+}
+
+/* Advanced link */
+.leave-type-form-advanced {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 10px;
+}

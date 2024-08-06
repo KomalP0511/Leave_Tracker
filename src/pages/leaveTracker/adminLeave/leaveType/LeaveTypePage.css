@@ -1,0 +1,125 @@
+.leave-type-page {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .leave-type-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .leave-type-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .leave-type-add-btn, .leave-type-filter-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .leave-type-add-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .leave-type-filter-btn {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .leave-type-content {
+    overflow-x: auto;
+  }
+  
+  .leave-type-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-type-table th, .leave-type-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .leave-type-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .leave-type-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .leave-type-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .leave-type-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .leave-type-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .leave-type-slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .leave-type-slider:before {
+    transform: translateX(26px);
+  }
+  
+  .leave-type-edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .leave-type-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .leave-type-actions {
+      margin-top: 10px;
+    }
+  
+    .leave-type-table {
+      font-size: 14px;
+    }
+  }

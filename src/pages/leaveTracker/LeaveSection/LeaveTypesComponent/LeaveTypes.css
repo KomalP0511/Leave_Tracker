@@ -1,0 +1,19 @@
+.leave-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .leave-box {
+    background: #fff;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .leave-box h2 {
+    margin-top: 0;
+  }
+  

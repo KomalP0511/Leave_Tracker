@@ -1,0 +1,198 @@
+.calendar-leave-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(59, 55, 55, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    flex-direction: column;
+  }
+  
+  .calendar-leave-modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-month-year {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .calendar-year,
+  .calendar-month select {
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .leave-summary {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .leave-summary-nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .leave-summary-nav h3 {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .nav-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .leave-summary-card {
+    background-color: #90D26D;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #3a3e3a;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .leave-summary-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .legend p {
+    margin: 10px;
+  }
+  
+  .back-btn {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  @media (max-width: 768px) {
+    .calendar-leave-modal {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .leave-summary {
+      max-width: none;
+      margin-top: 0;
+    }
+  }
+  /* Calendar.css */
+
+/* Override the badge dot style */
+.ant-badge-status-dot {
+  width: 100%;
+  height: 4px; /* Set the height for the line */
+  border-radius: 0; /* Remove the rounded corners */
+  position: absolute;
+  bottom: 0; /* Position the line at the bottom */
+  left: 0;
+  transform: translateY(0); /* Ensure the line stays at the bottom */
+}
+
+/* Calendar.css */
+
+/* Override the badge dot style */
+.calendar-leave-overlay .ant-badge-status-dot {
+  width: 100%;
+  height: 4px; /* Set the height for the line */
+  border-radius: 0; /* Remove the rounded corners */
+  position: absolute;
+  bottom: 0; /* Position the line at the bottom */
+  left: 0;
+  transform: translateY(0); /* Ensure the line stays at the bottom */
+}
+
+/* Adjust the badge text position */
+.calendar-leave-overlay .ant-badge-status-text {
+  padding-left: 0; /* Adjust padding to align the text correctly */
+  display: block; /* Ensure the text is block-level for proper alignment */
+  position: relative;
+  top: -10px; /* Adjust the text position if needed */
+}
+
+/* Specific badge colors */
+.calendar-leave-overlay .ant-badge-status-success .ant-badge-status-dot {
+  background-color: #52c41a; /* Green line for "Present" */
+}
+
+.calendar-leave-overlay .ant-badge-status-error .ant-badge-status-dot {
+  background-color: #f5222d; /* Red line for "Absent" */
+}
+
+.calendar-leave-overlay .ant-badge-status-warning .ant-badge-status-dot {
+  background-color: #faad14; /* Yellow line for "Non-Working Day" */
+}
+
+.calendar-leave-overlay .ant-badge-status-processing .ant-badge-status-dot {
+  background-color: #1890ff; /* Blue line for "Public Holiday" */
+}

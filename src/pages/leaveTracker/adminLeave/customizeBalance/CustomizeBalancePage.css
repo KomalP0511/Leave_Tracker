@@ -1,0 +1,49 @@
+.customize-balance-page {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.customize-balance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.customize-balance-header h1 {
+  margin: 0;
+}
+
+.customize-balance-content {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.customize-balance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customize-balance-table th, .customize-balance-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.customize-balance-table th {
+  background-color: #f2f2f2;
+}
+
+.customize-balance-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.customize-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

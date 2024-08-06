@@ -1,0 +1,78 @@
+.footer {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-history-header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .history-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .history-btn.active {
+    background-color: #0056b3;
+  }
+  
+  .leave-list {
+    text-align: center;
+  }
+  
+  .leave-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  .footer {
+    padding: 20px;
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+  }
+  
+  .leave-history-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .history-btn {
+    padding: 10px 20px;
+    border: none;
+    background: #e0e0e0;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .history-btn.active {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .leave-list {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .leave-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .leave-type, .leave-dates, .leave-status {
+    flex: 1;
+    text-align: center;
+  }
+  
